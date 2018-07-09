@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MusicFinder</string>
+    <string name="search_hint">Enter a band or artist…</string>
+    <string name="btn_label">Search</string>
+    <string name="front_text">Enter the name of  band or artist to discover new music!</string>
+    <string name="artist">ARTIST</string>
+    <string name="no_favorites">You haven\'t saved any favorites!</string>
+    <string name="artist_genre">Artist Genre</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="bio">A really big long bio is here</string>
+    <string name="favorite">Favorite</string>
+    <string name="favs_list">My Favorites</string>
+    <string name="results">Results</string>
+    <string name="no_results">No results!</string>
+    <string name="about">About</string>
+    <string name="view_discography">View Discography</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.jennatillotson.musicfind.ArtistSearch">
+
+    <EditText
+        android:id="@+id/search_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search_hint"
+        android:inputType="text"
+        android:paddingTop="20dp"/>
+
+    <Button
+        android:id="@+id/search_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/btn_label"
+        android:textColor="#fff"
+        android:layout_marginRight="3dp"
+        android:width="120dp"
+        android:textSize="18sp"
+        android:background="@color/colorSecondaryLight"
+        android:onClick="search"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:paddingTop="80dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/front_text" />
+
+
+</LinearLayout>

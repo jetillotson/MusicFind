@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About MusicFinder"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:paddingTop="30dp"
+        android:paddingHorizontal="15dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="15dp"
+        android:textSize="16sp"
+        android:text="Created by Jenna Tillotson for ISTE-456: Mobile Application Development II."
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="APIs Utilized:"
+        android:paddingHorizontal="20dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/colorSecondaryLight"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textSize="16sp"
+        android:text="> TasteDive (find similar artists)\n> TheAudioDB (specific artist info)\n> MusicBrainz (for discography)\n> Cover Art Archive (album art)"/>
+
+</LinearLayout>
